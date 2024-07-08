@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E6B9BA32C3438B60075758B /* Whats_CookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BA22C3438B60075758B /* Whats_CookingApp.swift */; };
+		9E6B9BA52C3438B60075758B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BA42C3438B60075758B /* ContentView.swift */; };
+		9E6B9BA72C3438B80075758B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B9BA62C3438B80075758B /* Assets.xcassets */; };
+		9E6B9BAA2C3438B80075758B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6B9BA92C3438B80075758B /* Preview Assets.xcassets */; };
+		9E6B9BB42C3438B80075758B /* Fetch_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BB32C3438B80075758B /* Fetch_Coding_ChallengeTests.swift */; };
+		9E6B9BBE2C3438B80075758B /* Fetch_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BBD2C3438B80075758B /* Fetch_Coding_ChallengeUITests.swift */; };
+		9E6B9BC02C3438B80075758B /* Fetch_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BBF2C3438B80075758B /* Fetch_Coding_ChallengeUITestsLaunchTests.swift */; };
+		9E6B9BCD2C343A650075758B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BCC2C343A650075758B /* Category.swift */; };
+		9E6B9BD12C3451100075758B /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BD02C3451100075758B /* MealListView.swift */; };
+		9E6B9BD52C345FE20075758B /* MealPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BD42C345FE20075758B /* MealPreview.swift */; };
+		9E6B9BD72C3460480075758B /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BD62C3460480075758B /* RecipeView.swift */; };
+		9E6B9BD92C3461600075758B /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B9BD82C3461600075758B /* Recipe.swift */; };
+		9E6BB97D2C39DACB0087F5DE /* RecipeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6BB97C2C39DACB0087F5DE /* RecipeImageView.swift */; };
+		9E6BB97F2C39DB300087F5DE /* RecipeBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6BB97E2C39DB300087F5DE /* RecipeBodyView.swift */; };
+		9E7ADE522C39C6DA00235114 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ADE512C39C6DA00235114 /* CategoryCardView.swift */; };
+		9E7ADE542C39C7DB00235114 /* MealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ADE532C39C7DB00235114 /* MealCardView.swift */; };
+		9E7ADE562C39CB6000235114 /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ADE552C39CB6000235114 /* CategoryListView.swift */; };
+		9E7EEBC72C37293700E22B86 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EEBC62C37293700E22B86 /* SafariView.swift */; };
+		9E7EEBCF2C39A08800E22B86 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EEBCE2C39A08800E22B86 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E6B9BB02C3438B80075758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E6B9B972C3438B60075758B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6B9B9E2C3438B60075758B;
+			remoteInfo = "Fetch Coding Challenge";
+		};
+		9E6B9BBA2C3438B80075758B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E6B9B972C3438B60075758B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6B9B9E2C3438B60075758B;
+			remoteInfo = "Fetch Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E6B9B9F2C3438B60075758B /* What's Cooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's Cooking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6B9BA22C3438B60075758B /* Whats_CookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whats_CookingApp.swift; sourceTree = "<group>"; };
+		9E6B9BA42C3438B60075758B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E6B9BA62C3438B80075758B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E6B9BA92C3438B80075758B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E6B9BAF2C3438B80075758B /* What's CookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's CookingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6B9BB32C3438B80075758B /* Fetch_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		9E6B9BB92C3438B80075758B /* What's CookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's CookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6B9BBD2C3438B80075758B /* Fetch_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
+		9E6B9BBF2C3438B80075758B /* Fetch_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E6B9BCC2C343A650075758B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9E6B9BD02C3451100075758B /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		9E6B9BD42C345FE20075758B /* MealPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPreview.swift; sourceTree = "<group>"; };
+		9E6B9BD62C3460480075758B /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		9E6B9BD82C3461600075758B /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		9E6BB97C2C39DACB0087F5DE /* RecipeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeImageView.swift; sourceTree = "<group>"; };
+		9E6BB97E2C39DB300087F5DE /* RecipeBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeBodyView.swift; sourceTree = "<group>"; };
+		9E7ADE512C39C6DA00235114 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		9E7ADE532C39C7DB00235114 /* MealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCardView.swift; sourceTree = "<group>"; };
+		9E7ADE552C39CB6000235114 /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		9E7EEBC62C37293700E22B86 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		9E7EEBCE2C39A08800E22B86 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E6B9B9C2C3438B60075758B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6B9BAC2C3438B80075758B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6B9BB62C3438B80075758B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E6B9B962C3438B60075758B = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BA12C3438B60075758B /* What's Cooking */,
+				9E6B9BB22C3438B80075758B /* What's CookingTests */,
+				9E6B9BBC2C3438B80075758B /* What's CookingUITests */,
+				9E6B9BA02C3438B60075758B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E6B9BA02C3438B60075758B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9B9F2C3438B60075758B /* What's Cooking.app */,
+				9E6B9BAF2C3438B80075758B /* What's CookingTests.xctest */,
+				9E6B9BB92C3438B80075758B /* What's CookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E6B9BA12C3438B60075758B /* What's Cooking */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BA22C3438B60075758B /* Whats_CookingApp.swift */,
+				9E6B9BA42C3438B60075758B /* ContentView.swift */,
+				9E7ADE572C39CD0B00235114 /* Category Views */,
+				9E7ADE582C39CD2600235114 /* Meal Preview Views */,
+				9E7ADE592C39CD4D00235114 /* Recipe Views */,
+				9E7ADE5A2C39CD6900235114 /* Data Models */,
+				9E7EEBCE2C39A08800E22B86 /* ViewModel.swift */,
+				9E7EEBC62C37293700E22B86 /* SafariView.swift */,
+				9E6B9BA62C3438B80075758B /* Assets.xcassets */,
+				9E6B9BA82C3438B80075758B /* Preview Content */,
+			);
+			path = "What's Cooking";
+			sourceTree = "<group>";
+		};
+		9E6B9BA82C3438B80075758B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BA92C3438B80075758B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E6B9BB22C3438B80075758B /* What's CookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BB32C3438B80075758B /* Fetch_Coding_ChallengeTests.swift */,
+			);
+			path = "What's CookingTests";
+			sourceTree = "<group>";
+		};
+		9E6B9BBC2C3438B80075758B /* What's CookingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BBD2C3438B80075758B /* Fetch_Coding_ChallengeUITests.swift */,
+				9E6B9BBF2C3438B80075758B /* Fetch_Coding_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "What's CookingUITests";
+			sourceTree = "<group>";
+		};
+		9E7ADE572C39CD0B00235114 /* Category Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E7ADE552C39CB6000235114 /* CategoryListView.swift */,
+				9E7ADE512C39C6DA00235114 /* CategoryCardView.swift */,
+			);
+			path = "Category Views";
+			sourceTree = "<group>";
+		};
+		9E7ADE582C39CD2600235114 /* Meal Preview Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BD02C3451100075758B /* MealListView.swift */,
+				9E7ADE532C39C7DB00235114 /* MealCardView.swift */,
+			);
+			path = "Meal Preview Views";
+			sourceTree = "<group>";
+		};
+		9E7ADE592C39CD4D00235114 /* Recipe Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BD62C3460480075758B /* RecipeView.swift */,
+				9E6BB97C2C39DACB0087F5DE /* RecipeImageView.swift */,
+				9E6BB97E2C39DB300087F5DE /* RecipeBodyView.swift */,
+			);
+			path = "Recipe Views";
+			sourceTree = "<group>";
+		};
+		9E7ADE5A2C39CD6900235114 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B9BCC2C343A650075758B /* Category.swift */,
+				9E6B9BD42C345FE20075758B /* MealPreview.swift */,
+				9E6B9BD82C3461600075758B /* Recipe.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E6B9B9E2C3438B60075758B /* What's Cooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6B9BC32C3438B80075758B /* Build configuration list for PBXNativeTarget "What's Cooking" */;
+			buildPhases = (
+				9E6B9B9B2C3438B60075758B /* Sources */,
+				9E6B9B9C2C3438B60075758B /* Frameworks */,
+				9E6B9B9D2C3438B60075758B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What's Cooking";
+			productName = "Fetch Coding Challenge";
+			productReference = 9E6B9B9F2C3438B60075758B /* What's Cooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E6B9BAE2C3438B80075758B /* What's CookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6B9BC62C3438B80075758B /* Build configuration list for PBXNativeTarget "What's CookingTests" */;
+			buildPhases = (
+				9E6B9BAB2C3438B80075758B /* Sources */,
+				9E6B9BAC2C3438B80075758B /* Frameworks */,
+				9E6B9BAD2C3438B80075758B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E6B9BB12C3438B80075758B /* PBXTargetDependency */,
+			);
+			name = "What's CookingTests";
+			productName = "Fetch Coding ChallengeTests";
+			productReference = 9E6B9BAF2C3438B80075758B /* What's CookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E6B9BB82C3438B80075758B /* What's CookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6B9BC92C3438B80075758B /* Build configuration list for PBXNativeTarget "What's CookingUITests" */;
+			buildPhases = (
+				9E6B9BB52C3438B80075758B /* Sources */,
+				9E6B9BB62C3438B80075758B /* Frameworks */,
+				9E6B9BB72C3438B80075758B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E6B9BBB2C3438B80075758B /* PBXTargetDependency */,
+			);
+			name = "What's CookingUITests";
+			productName = "Fetch Coding ChallengeUITests";
+			productReference = 9E6B9BB92C3438B80075758B /* What's CookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E6B9B972C3438B60075758B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9E6B9B9E2C3438B60075758B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9E6B9BAE2C3438B80075758B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9E6B9B9E2C3438B60075758B;
+					};
+					9E6B9BB82C3438B80075758B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9E6B9B9E2C3438B60075758B;
+					};
+				};
+			};
+			buildConfigurationList = 9E6B9B9A2C3438B60075758B /* Build configuration list for PBXProject "What's Cooking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E6B9B962C3438B60075758B;
+			productRefGroup = 9E6B9BA02C3438B60075758B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E6B9B9E2C3438B60075758B /* What's Cooking */,
+				9E6B9BAE2C3438B80075758B /* What's CookingTests */,
+				9E6B9BB82C3438B80075758B /* What's CookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E6B9B9D2C3438B60075758B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6B9BAA2C3438B80075758B /* Preview Assets.xcassets in Resources */,
+				9E6B9BA72C3438B80075758B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6B9BAD2C3438B80075758B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6B9BB72C3438B80075758B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E6B9B9B2C3438B60075758B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6B9BD72C3460480075758B /* RecipeView.swift in Sources */,
+				9E7EEBCF2C39A08800E22B86 /* ViewModel.swift in Sources */,
+				9E7ADE522C39C6DA00235114 /* CategoryCardView.swift in Sources */,
+				9E6B9BD52C345FE20075758B /* MealPreview.swift in Sources */,
+				9E6B9BA52C3438B60075758B /* ContentView.swift in Sources */,
+				9E6BB97D2C39DACB0087F5DE /* RecipeImageView.swift in Sources */,
+				9E6B9BD92C3461600075758B /* Recipe.swift in Sources */,
+				9E7ADE562C39CB6000235114 /* CategoryListView.swift in Sources */,
+				9E7EEBC72C37293700E22B86 /* SafariView.swift in Sources */,
+				9E6B9BA32C3438B60075758B /* Whats_CookingApp.swift in Sources */,
+				9E7ADE542C39C7DB00235114 /* MealCardView.swift in Sources */,
+				9E6B9BCD2C343A650075758B /* Category.swift in Sources */,
+				9E6BB97F2C39DB300087F5DE /* RecipeBodyView.swift in Sources */,
+				9E6B9BD12C3451100075758B /* MealListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6B9BAB2C3438B80075758B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6B9BB42C3438B80075758B /* Fetch_Coding_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6B9BB52C3438B80075758B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6B9BBE2C3438B80075758B /* Fetch_Coding_ChallengeUITests.swift in Sources */,
+				9E6B9BC02C3438B80075758B /* Fetch_Coding_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E6B9BB12C3438B80075758B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E6B9B9E2C3438B60075758B /* What's Cooking */;
+			targetProxy = 9E6B9BB02C3438B80075758B /* PBXContainerItemProxy */;
+		};
+		9E6B9BBB2C3438B80075758B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E6B9B9E2C3438B60075758B /* What's Cooking */;
+			targetProxy = 9E6B9BBA2C3438B80075758B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E6B9BC12C3438B80075758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E6B9BC22C3438B80075758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E6B9BC42C3438B80075758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"What's Cooking/Preview Content\"";
+				DEVELOPMENT_TEAM = X8A236JXFT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "risner.justin.What-s-Cooking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E6B9BC52C3438B80075758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"What's Cooking/Preview Content\"";
+				DEVELOPMENT_TEAM = X8A236JXFT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "risner.justin.What-s-Cooking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E6B9BC72C3438B80075758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8A236JXFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "risner.justin.Fetch-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What's Cooking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/What's Cooking";
+			};
+			name = Debug;
+		};
+		9E6B9BC82C3438B80075758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8A236JXFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "risner.justin.Fetch-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What's Cooking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/What's Cooking";
+			};
+			name = Release;
+		};
+		9E6B9BCA2C3438B80075758B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8A236JXFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "risner.justin.Fetch-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Coding Challenge";
+			};
+			name = Debug;
+		};
+		9E6B9BCB2C3438B80075758B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8A236JXFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "risner.justin.Fetch-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Coding Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E6B9B9A2C3438B60075758B /* Build configuration list for PBXProject "What's Cooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6B9BC12C3438B80075758B /* Debug */,
+				9E6B9BC22C3438B80075758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6B9BC32C3438B80075758B /* Build configuration list for PBXNativeTarget "What's Cooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6B9BC42C3438B80075758B /* Debug */,
+				9E6B9BC52C3438B80075758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6B9BC62C3438B80075758B /* Build configuration list for PBXNativeTarget "What's CookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6B9BC72C3438B80075758B /* Debug */,
+				9E6B9BC82C3438B80075758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6B9BC92C3438B80075758B /* Build configuration list for PBXNativeTarget "What's CookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6B9BCA2C3438B80075758B /* Debug */,
+				9E6B9BCB2C3438B80075758B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E6B9B972C3438B60075758B /* Project object */;
+}
