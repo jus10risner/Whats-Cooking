@@ -42,9 +42,12 @@ struct RecipeView: View {
                 UIApplication.shared.isIdleTimerDisabled = true
             }
             .task {
-                // Load data from the urlString property
-                await vm.loadRemoteJSON(urlString: vm.baseURL + "lookup.php?i=\(mealID)") { (data: RecipeData) in
-                    recipes = data.recipes
+                // Load selected recipe
+                do {
+                    let recipeData: RecipeData = try await vm.loadRemoteJSON(urlString: vm.baseURL + "lookup.php?i=\(mealID)")
+                    recipes = recipeData.recipes
+                } catch {
+                    print("Error loading data: \(error.localizedDescription)")
                 }
             }
             .sheet(isPresented: Binding(

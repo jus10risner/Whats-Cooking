@@ -44,9 +44,12 @@ struct MealListView: View {
         .navigationBarTitleDisplayMode(.inline)
         .searchable(text: $searchText, placement: .navigationBarDrawer)
         .task {
-            // Load data from the urlString property
-            await vm.loadRemoteJSON(urlString: vm.baseURL + "filter.php?c=\(category)") { (data: MealPreviewData) in
-                mealPreviews = data.mealPreviews
+            // Load the meals in the selected category
+            do {
+                let mealPreviewData: MealPreviewData = try await vm.loadRemoteJSON(urlString: vm.baseURL + "filter.php?c=\(category)")
+                mealPreviews = mealPreviewData.mealPreviews
+            } catch {
+                print("Error loading data: \(error.localizedDescription)")
             }
         }
         .sheet(item: $selectedMeal, onDismiss: {

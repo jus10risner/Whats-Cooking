@@ -30,9 +30,12 @@ struct CategoryListView: View {
             }
             .navigationTitle("What's Cooking?")
             .task {
-                // Load data from the urlString property
-                await vm.loadRemoteJSON(urlString: vm.baseURL + "categories.php") { (data: CategoryData) in
-                    categories = data.categories
+                // Load all categories
+                do {
+                    let categoryData: CategoryData = try await vm.loadRemoteJSON(urlString: vm.baseURL + "categories.php")
+                    categories = categoryData.categories
+                } catch {
+                    print("Error loading data: \(error.localizedDescription)")
                 }
             }
         }
